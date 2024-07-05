@@ -1,0 +1,182 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+@font-face {
+    font-family: "chinese";
+    src: url(font/chinese\ rocks\ rg.ttf);
+    
+}
+body{
+    background-image: url(https://wallpapergod.com/images/hd/red-dead-redemption-2-2560X1440-wallpaper-wykajbob4j1jcxh9.jpeg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+p, .input-contato{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(241, 240, 240);
+}
+header{
+    
+    padding: 16px 0;
+    height: 65px;
+    background-color: rgb(22, 22, 22);
+    font-family: "chinese";
+    
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#about{
+    display: flex;
+    align-items: center;
+    
+}
+nav li{
+    margin: 0px;
+    align-items: center;
+    display: inline;
+    color: rgb(241, 240, 240);
+    font-size:25px ;
+    margin-left: 30px;
+}
+
+header nav li a{
+    font-size: 25px;
+    color: rgb(241, 240, 240);
+    text-decoration: none;
+}
+
+h1{
+    
+    font-weight: normal;
+    color: rgb(241, 240, 240);
+    font-size: 30px;
+}
+.pagina{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.artigo{
+    color:rgb(241, 240, 240) ;
+    margin: 60px;
+}
+.artigo-jogo{
+    display: flex;
+    
+}
+.titulo-artigos{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+.titulo-artigos, h3{
+    font-family: "chinese";
+    font-weight: normal;
+    color:rgb(241, 240, 240) ;
+}
+#sobre-o-jogo p{
+    margin: 20px;
+}
+.paragrafo-artigo{
+    margin-bottom: 20px ;
+    
+}
+.imagens-site{
+    height:580px;
+    width:1000px;
+}
+section{
+    background-color: red;
+}
+.contato{
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 400px;
+    margin-top: 60px;
+    background-color: red;
+}
+.contato h2{
+    font-family: "chinese";
+    font-weight:normal ;
+    color: rgb(241, 240, 240) ;
+}
+
+.contato .container{
+    display: flex;
+    justify-content: space-between;
+
+}
+#fale-comigo{
+    display: grid;
+    margin-top: 4px;
+}
+form textarea{
+    resize: none;
+    height: 120px;
+}
+#redes-sociais{
+    margin-top: 4px;
+}
+#redes-sociais ul{
+    display: flex;
+    justify-content: center;
+}
+.input-contato{
+    padding: 8px;
+    margin: 4px;
+    width: 300px;
+    border-radius: 9px;
+    border: none;
+}
+input:focus, textarea:focus{
+    outline-color: #e0e3ec;
+
+}
+#btn-enviar{
+    padding: 8px;
+    margin: 4px;
+    width: 300px;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: black;
+    color: rgb(241, 240, 240);
+    border: none;
+}
+#btn-enviar:hover{
+    background-color: rgb(22, 22, 22);
+}
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+#meu-git{
+    color: rgb(241, 240, 240);
+    font-family: "Roboto"; 
+}
+footer{
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:1200px){
+    
+}
